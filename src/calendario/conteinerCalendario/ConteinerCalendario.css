@@ -1,0 +1,23 @@
+.dia{
+    color: rgb(255, 255, 255);
+    width: 75%;
+    top: 1em;
+    background: blue;
+    position: absolute;
+    margin-left: 1em;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    left:15em;
+    height: 90%;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    justify-content: space-between;
+}
+
+.diasCalendarios{
+    width: auto;
+    height:auto;
+    border: 1px solid #c9c9c96e;
+    padding: 1em;
+}

@@ -1,0 +1,38 @@
+.modal {
+  background: #ccc;
+  color:black;
+  text-align: center;
+  justify-content: center;
+  border-radius: 20px;
+  height: 90vh;
+  width: 19%;
+  margin-top: 2em;
+}
+
+.ponteiro{
+  margin: 0;
+  width: .5em;
+}
+
+.hand {
+  stroke: #ffffff;
+  stroke-width: 2;
+  stroke-linecap: round;
+}
+
+.hand--thick {
+  stroke-width: 7;
+}
+
+.hand--second {
+  stroke: #ffff00;
+}
+
+.hour_marker {
+  fill: transparent;
+  stroke: #ffff00;
+  stroke-width: 7;
+  stroke-dasharray: 0.2, 4.8;
+  stroke-dashoffset: 0.1;
+}
+
